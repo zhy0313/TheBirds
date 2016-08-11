@@ -1,0 +1,40 @@
+{
+  "project_type": "javascript",
+  "debugMode": 1,
+  "showFPS": true,
+  "frameRate": 60,
+  "id": "gameCanvas",
+  "renderMode": 0,
+  "engineDir": "frameworks/cocos2d-html5",
+  "modules": [
+    "cocos2d",
+    "external",
+    "extensions"
+  ],
+  "jsList": [
+    "src/resource.js",
+
+    "src/scenes/gameScene/game.js",
+    "src/scenes/gameScene/backgroundLayer.js",
+    "src/scenes/gameScene/uiLayer.js",
+    "src/scenes/gameScene/pauseLayer.js",
+
+    "src/scenes/selectBird/selectBird.js",
+    "src/scenes/selectBird/backgroundLayer.js",
+    "src/scenes/selectBird/gameLayer.js",
+    "src/scenes/selectBird/uiLayer.js",
+
+
+
+    "src/components/world.js",
+    "src/components/bird.js",
+    "src/components/edge.js",
+    "src/components/bonus.js",
+    "src/components/tooth.js",
+
+
+
+
+    "src/app.js"
+  ]
+}
